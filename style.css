@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navcontainer{
+    padding: 10px;
+    margin: 10px;
+    background-color: rgb(184, 123, 173);
+}
+
+.navlist{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.navitems{
+    display: flex;
+    gap: 15px;
+    /* justify-content: flex-end; */
+}
+
+.navitems a{
+    text-decoration: none;
+    color: white;
+    font-family:'Poppins', sans-serif;
+
+}
+
+.navlogo{
+    font-family: 'Poppins', sans-serif;
+    color: rgb(43, 142, 199);
+}
